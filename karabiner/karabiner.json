@@ -4,266 +4,6 @@
             "complex_modifications": {
                 "rules": [
                     {
-                        "description": "u = Brave",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "u",
-                                    "modifiers": { "mandatory": ["left_shift", "left_command", "left_control", "left_option"] }
-                                },
-                                "to": [{ "shell_command": "open -a 'Brave Browser'" }],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "z = Visual Studio Code",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "z",
-                                    "modifiers": { "mandatory": ["left_shift", "left_command", "left_control", "left_option"] }
-                                },
-                                "to": [{ "shell_command": "open -a 'Visual Studio Code'" }],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "s = Safari",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "s",
-                                    "modifiers": { "mandatory": ["left_shift", "left_command", "left_control", "left_option"] }
-                                },
-                                "to": [{ "shell_command": "open -a 'Safari'" }],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "c = Chrome",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "c",
-                                    "modifiers": { "mandatory": ["left_shift", "left_command", "left_control", "left_option"] }
-                                },
-                                "to": [{ "shell_command": "open -a 'Google Chrome'" }],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "k = Open Karabiner Elements",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "k",
-                                    "modifiers": { "mandatory": ["left_shift", "left_command", "left_control", "left_option"] }
-                                },
-                                "to": [{ "shell_command": "open -a 'Karabiner-Elements'" }],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "x = CotEditor",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "x",
-                                    "modifiers": { "mandatory": ["left_shift", "left_command", "left_control", "left_option"] }
-                                },
-                                "to": [{ "shell_command": "open -a 'CotEditor'" }],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "g = ChatGPT",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "g",
-                                    "modifiers": { "mandatory": ["left_shift", "left_command", "left_control", "left_option"] }
-                                },
-                                "to": [{ "shell_command": "open -a 'ChatGPT'" }],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "w = WhatsApp",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "w",
-                                    "modifiers": { "mandatory": ["left_shift", "left_command", "left_control", "left_option"] }
-                                },
-                                "to": [{ "shell_command": "open -a 'WhatsApp'" }],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "v = Visual Studio Code - Insiders",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "v",
-                                    "modifiers": { "mandatory": ["left_shift", "left_command", "left_control", "left_option"] }
-                                },
-                                "to": [{ "shell_command": "open -a 'Visual Studio Code - Insiders'" }],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "t = Thunderbird",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "t",
-                                    "modifiers": { "mandatory": ["left_shift", "left_command", "left_control", "left_option"] }
-                                },
-                                "to": [{ "shell_command": "open -a 'Thunderbird'" }],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "p = PhpStorm",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "p",
-                                    "modifiers": { "mandatory": ["left_shift", "left_command", "left_control", "left_option"] }
-                                },
-                                "to": [{ "shell_command": "open -a 'PhpStorm'" }],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "r = Firefox",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "r",
-                                    "modifiers": { "mandatory": ["left_shift", "left_command", "left_control", "left_option"] }
-                                },
-                                "to": [{ "shell_command": "open -a 'Firefox'" }],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "i = iTerm",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "i",
-                                    "modifiers": { "mandatory": ["left_shift", "left_command", "left_control", "left_option"] }
-                                },
-                                "to": [{ "shell_command": "open -a 'iTerm'" }],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "d = Finder",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "d",
-                                    "modifiers": { "mandatory": ["left_shift", "left_command", "left_control", "left_option"] }
-                                },
-                                "to": [{ "shell_command": "open -a 'Finder'" }],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "y = Mail",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "y",
-                                    "modifiers": { "mandatory": ["left_shift", "left_command", "left_control", "left_option"] }
-                                },
-                                "to": [{ "shell_command": "open -a 'Mail'" }],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "q = Messages",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "q",
-                                    "modifiers": { "mandatory": ["left_shift", "left_command", "left_control", "left_option"] }
-                                },
-                                "to": [{ "shell_command": "open -a 'Messages'" }],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "n = Notes",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "n",
-                                    "modifiers": { "mandatory": ["left_shift", "left_command", "left_control", "left_option"] }
-                                },
-                                "to": [{ "shell_command": "open -a 'Notes'" }],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "m = Sequel Ace",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "m",
-                                    "modifiers": { "mandatory": ["left_shift", "left_command", "left_control", "left_option"] }
-                                },
-                                "to": [{ "shell_command": "open -a 'Sequel Ace'" }],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "n = hotkeys",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "h",
-                                    "modifiers": { "mandatory": ["left_shift", "left_command", "left_control", "left_option"] }
-                                },
-                                "to": [{ "shell_command": "osascript -l JavaScript -e 'var notes = Application(\"Notes\"); notes.activate(); var myNote = notes.notes.whose({name: \"hotkeys\"})[0]; if (myNote) { myNote.show(); }'" }],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "o = Transmit",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "o",
-                                    "modifiers": { "mandatory": ["left_shift", "left_command", "left_control", "left_option"] }
-                                },
-                                "to": [{ "shell_command": "open -a 'Transmit'" }],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
                         "description": "a = Calendar",
                         "manipulators": [
                             {
@@ -285,6 +25,266 @@
                                     "modifiers": { "mandatory": ["left_shift", "left_command", "left_control", "left_option"] }
                                 },
                                 "to": [{ "shell_command": "open /Applications/Craft.app" }],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "c = Chrome",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "c",
+                                    "modifiers": { "mandatory": ["left_shift", "left_command", "left_control", "left_option"] }
+                                },
+                                "to": [{ "shell_command": "open -a 'Google Chrome'" }],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "d = Finder",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "d",
+                                    "modifiers": { "mandatory": ["left_shift", "left_command", "left_control", "left_option"] }
+                                },
+                                "to": [{ "shell_command": "open -a 'Finder'" }],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "g = ChatGPT",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "g",
+                                    "modifiers": { "mandatory": ["left_shift", "left_command", "left_control", "left_option"] }
+                                },
+                                "to": [{ "shell_command": "open -a 'ChatGPT'" }],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "h = hotkeys",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "h",
+                                    "modifiers": { "mandatory": ["left_shift", "left_command", "left_control", "left_option"] }
+                                },
+                                "to": [{ "shell_command": "osascript -l JavaScript -e 'var notes = Application(\"Notes\"); notes.activate(); var myNote = notes.notes.whose({name: \"hotkeys\"})[0]; if (myNote) { myNote.show(); }'" }],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "i = iTerm",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "i",
+                                    "modifiers": { "mandatory": ["left_shift", "left_command", "left_control", "left_option"] }
+                                },
+                                "to": [{ "shell_command": "open -a 'iTerm'" }],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "k = Open Karabiner Elements",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "k",
+                                    "modifiers": { "mandatory": ["left_shift", "left_command", "left_control", "left_option"] }
+                                },
+                                "to": [{ "shell_command": "open -a 'Karabiner-Elements'" }],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "m = Sequel Ace",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "m",
+                                    "modifiers": { "mandatory": ["left_shift", "left_command", "left_control", "left_option"] }
+                                },
+                                "to": [{ "shell_command": "open -a 'Sequel Ace'" }],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "n = Notes",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "n",
+                                    "modifiers": { "mandatory": ["left_shift", "left_command", "left_control", "left_option"] }
+                                },
+                                "to": [{ "shell_command": "open -a 'Notes'" }],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "o = Transmit",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "o",
+                                    "modifiers": { "mandatory": ["left_shift", "left_command", "left_control", "left_option"] }
+                                },
+                                "to": [{ "shell_command": "open -a 'Transmit'" }],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "p = PhpStorm",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "p",
+                                    "modifiers": { "mandatory": ["left_shift", "left_command", "left_control", "left_option"] }
+                                },
+                                "to": [{ "shell_command": "open -a 'PhpStorm'" }],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "q = Messages",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "q",
+                                    "modifiers": { "mandatory": ["left_shift", "left_command", "left_control", "left_option"] }
+                                },
+                                "to": [{ "shell_command": "open -a 'Messages'" }],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "r = Firefox",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "r",
+                                    "modifiers": { "mandatory": ["left_shift", "left_command", "left_control", "left_option"] }
+                                },
+                                "to": [{ "shell_command": "open -a 'Firefox'" }],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "s = Safari",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "s",
+                                    "modifiers": { "mandatory": ["left_shift", "left_command", "left_control", "left_option"] }
+                                },
+                                "to": [{ "shell_command": "open -a 'Safari'" }],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "t = Thunderbird",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "t",
+                                    "modifiers": { "mandatory": ["left_shift", "left_command", "left_control", "left_option"] }
+                                },
+                                "to": [{ "shell_command": "open -a 'Thunderbird'" }],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "u = Brave",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "u",
+                                    "modifiers": { "mandatory": ["left_shift", "left_command", "left_control", "left_option"] }
+                                },
+                                "to": [{ "shell_command": "open -a 'Brave Browser'" }],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "v = Visual Studio Code - Insiders",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "v",
+                                    "modifiers": { "mandatory": ["left_shift", "left_command", "left_control", "left_option"] }
+                                },
+                                "to": [{ "shell_command": "open -a 'Visual Studio Code - Insiders'" }],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "w = WhatsApp",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "w",
+                                    "modifiers": { "mandatory": ["left_shift", "left_command", "left_control", "left_option"] }
+                                },
+                                "to": [{ "shell_command": "open -a 'WhatsApp'" }],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "x = CotEditor",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "x",
+                                    "modifiers": { "mandatory": ["left_shift", "left_command", "left_control", "left_option"] }
+                                },
+                                "to": [{ "shell_command": "open -a 'CotEditor'" }],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "y = Mail",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "y",
+                                    "modifiers": { "mandatory": ["left_shift", "left_command", "left_control", "left_option"] }
+                                },
+                                "to": [{ "shell_command": "open -a 'Mail'" }],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "z = Visual Studio Code",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "z",
+                                    "modifiers": { "mandatory": ["left_shift", "left_command", "left_control", "left_option"] }
+                                },
+                                "to": [{ "shell_command": "open -a 'Visual Studio Code'" }],
                                 "type": "basic"
                             }
                         ]
